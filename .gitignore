@@ -1,0 +1,73 @@
+# Node.js dependencies
+node_modules/
+
+# Vite build output
+dist/
+
+# Setuptools / Python artifacts (if you run Python in this repo)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Optional npm cache directory
+.npm/
+.eslintcache
+
+# Local env files
+.env
+.env.*
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code settings
+.vscode/
+
+# npm package lock files in subprojects can be committed, but ignore any lockfiles that are generated locally in unexpected places
+# (if you prefer to commit package-lock.json or yarn.lock at the project/subproject level, remove these lines)
+# package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Smart contract build artifacts
+smart_contract/build/
+smart_contract/cache/
+smart_contract/artifacts/
+smart_contract/coverage/
+
+# Client build artifacts
+client/node_modules/
+client/dist/
+client/.vite/
+client/.cache/
+
+# Ignore editor swap/temp files
+*~
+*.swp
+*.swo
+
+# Ignore IDE folders
+.idea/
+*.iml
+
+# Ignore local OS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore coverage reports
+coverage/
+
+# Ignore lock files in root unless intentionally used
+# Uncomment if you want root lock files preserved
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
